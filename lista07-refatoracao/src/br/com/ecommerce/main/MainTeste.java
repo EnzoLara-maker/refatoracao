@@ -22,7 +22,6 @@ public class MainTeste {
             double freteMotoboy = calculadora.processarFrete(valorPedido, new FreteMotoboy());
             System.out.println("Frete MOTOBOY para R$ " + valorPedido + ": R$ " + freteMotoboy);
 
-            // Força o erro: nenhuma estratégia informada
             double freteInvalido = calculadora.processarFrete(valorPedido, null);
             System.out.println("Isso nunca deve ser impresso: " + freteInvalido);
 
